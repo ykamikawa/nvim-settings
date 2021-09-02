@@ -1,3 +1,6 @@
+" =============================================================================
+" COC
+" =============================================================================
 let g:coc_global_extensions = [
       \ 'coc-browser',
       \ 'coc-css',
@@ -188,4 +191,3 @@ let g:coc_explorer_global_presets = {
       \     'file-child-template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
       \   }
       \ }
-

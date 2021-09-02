@@ -19,7 +19,8 @@ nmap <C-t>n :tabnew<CR>
 nmap <C-t>N :tabNext<CR>
 nmap <C-t>p :tabprevious<CR>
 " Move between tab
-nnoremap <Leader>t gt nnoremap <Leader>T gT
+nnoremap <Leader>t gt
+nnoremap <Leader>T gT
 " Save and finish
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
