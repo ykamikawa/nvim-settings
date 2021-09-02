@@ -39,20 +39,20 @@ endif
 au ColorScheme * hi Normal ctermbg=NONE
 au ColorScheme * hi MatchParen cterm=BOLD ctermfg=214 ctermbg=black
 au Colorscheme * hi SpellBad ctermfg=23 cterm=NONE ctermbg=NONE
-" Make background transparent for many things
-hi! Normal ctermbg=NONE guibg=NONE
-hi! NonText ctermbg=NONE guibg=NONE
-hi! LineNr ctermfg=NONE guibg=NONE
-hi! SignColumn ctermfg=NONE guibg=NONE
-hi! StatusLine guifg=NONE guibg=NONE
-hi! StatusLineNC guifg=NONE guibg=NONE
-" Try to hide vertical spit and end of buffer symbol
-hi! VertSplit gui=NONE guifg=NONE guibg=NONE cterm=NONE
-hi! EndOfBuffer ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
-" Make background color transparent for git changes
-hi! SignifySignAdd guibg=NONE
-hi! SignifySignDelete guibg=NONE
-hi! SignifySignChange guibg=NONE
+"" Make background transparent for many things
+"hi! Normal ctermbg=NONE guibg=NONE
+"hi! NonText ctermbg=NONE guibg=NONE
+"hi! LineNr ctermfg=NONE guibg=NONE
+"hi! SignColumn ctermfg=NONE guibg=NONE
+"hi! StatusLine guifg=NONE guibg=NONE
+"hi! StatusLineNC guifg=NONE guibg=NONE
+"" Try to hide vertical spit and end of buffer symbol
+"hi! VertSplit gui=NONE guifg=NONE guibg=NONE cterm=NONE
+"hi! EndOfBuffer ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+"" Make background color transparent for git changes
+"hi! SignifySignAdd guibg=NONE
+"hi! SignifySignDelete guibg=NONE
+"hi! SignifySignChange guibg=NONE
 " hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 
 " if g:colors_name == 'nord'
