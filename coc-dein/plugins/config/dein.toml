@@ -1,0 +1,132 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+[[plugins]]
+repo = 'tpope/vim-sensible'
+[[plugins]]
+repo = 'tpope/vim-abolish'
+[[plugins]]
+repo = 'tpope/vim-surround'
+[[plugins]]
+repo = 'tpope/vim-capslock'
+[[plugins]]
+repo = 'tpope/vim-repeat'
+[[plugins]]
+repo = 'tpope/vim-commentary'
+[[plugins]]
+repo = 'tpope/vim-dispatch'
+[[plugins]]
+repo = 'tpope/vim-dadbod'
+[[plugins]]
+repo = 'tpope/vim-jdaddy'
+[[plugins]]
+repo = 'tpope/vim-rhubarb'
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+[[plugins]]
+repo = 'justinmk/vim-sneak'
+[[plugins]]
+repo = 'kshenoy/vim-signature'
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+[[plugins]]
+repo = 'airblade/vim-rooter'
+[[plugins]]
+repo = 'chaoren/vim-wordmotion'
+[[plugins]]
+repo = 'junegunn/vim-peekaboo'
+[[plugins]]
+repo = 'junegunn/vim-easy-align'
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+[[plugins]]
+repo = 'junegunn/fzf'
+[[plugins]]
+repo = 'junegunn/gv.vim'
+[[plugins]]
+repo = 'stsewd/fzf-checkout.vim'
+[[plugins]]
+repo = 'haya14busa/is.vim'
+[[plugins]]
+repo = 'terryma/vim-multiple-cursors'
+[[plugins]]
+repo = 'rhysd/committia.vim'
+[[plugins]]
+repo = 'rhysd/devdocs.vim'
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+[[plugins]]
+repo = 'tmux-plugins/vim-tmux-focus-events'
+[[plugins]]
+repo = 'dyng/ctrlsf.vim'
+[[plugins]]
+repo = "neoclide/coc.nvim"
+rev = "release"
+[[plugins]]
+repo = 'honza/vim-snippets'
+[[plugins]]
+repo = 'RRethy/vim-hexokinase'
+build = 'make'
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+[[plugins]]
+repo = 'mhinz/vim-signify'
+[[plugins]]
+repo = 'mhinz/vim-startify'
+[[plugins]]
+repo = 'drzel/vim-line-no-indicator'
+[[plugins]]
+repo = 'liuchengxu/vista.vim'
+[[plugins]]
+repo = 'christoomey/vim-tmux-navigator'
+[[plugins]]
+repo = 'editorconfig/editorconfig-vim'
+[[plugins]]
+repo = 'AndrewRadev/tagalong.vim'
+[[plugins]]
+repo = 'jmckiern/vim-venter'
+[[plugins]]
+repo = 'voldikss/vim-floaterm'
+[[plugins]]
+repo = 'lambdalisue/suda.vim'
+[[plugins]]
+repo = 'psliwka/vim-smoothie'
+[[plugins]]
+repo = 'benwainwright/fzf-project'
+[[plugins]]
+repo = 'kovetskiy/vim-autoresize'
+[[plugins]]
+repo = 'andymass/vim-matchup'
+[[plugins]]
+repo = 'Shougo/context_filetype.vim'
+[[plugins]]
+repo = 'osyo-manga/vim-precious'
+depends=['context_filetype.vim']
+[[plugins]]
+repo = 'rhysd/accelerated-jk'
+[[plugins]]
+repo='kannokanno/previm'
+[[plugins]]
+repo = "ayu-theme/ayu-vim"
+[[plugins]]
+repo = "joshdick/onedark.vim"
+[[plugins]]
+repo = 'gruvbox-community/gruvbox'
+[[plugins]]
+repo = "ulwlu/elly.vim"
+[[plugins]]
+repo = "ghifarit53/tokyonight-vim"
+[[plugins]]
+repo = 'w0ng/vim-hybrid'
+[[plugins]]
+repo = 'dikiapp/minimalist'
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+depends = 'vim-airline'
+#[[plugins]]
+#repo = 'itchyny/lightline.vim'
+#[[plugins]]
+#repo = 'mengelbrecht/lightline-bufferline'
