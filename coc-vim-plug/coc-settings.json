@@ -98,19 +98,19 @@
     "css",
     "yaml",
     "md",
-    "markdown",
-    "python",
-    "rust",
-    "go",
-    "pfp",
-    "javascript",
-    "typescript",
-    "typescriptreact"
+    "markdown"
   ],
 
   // html
   "html.autoClosingTags": true,
   "html.suggest.ionic": true,
+
+  // pyright
+  "pyright.enable": true,
+  "pyright.organizeimports.provider": "isort",
+  "python.analysis.autoImportCompletions": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--diff", "--quiet", "--fast"],
 
   // eslint
   "eslint.autoFixOnSave": true,
