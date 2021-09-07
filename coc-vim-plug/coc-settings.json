@@ -51,16 +51,15 @@
   "list.selectedSignText": " ",
 
   // diagnostics
-  "diagnostic.errorSign": " ",
-  "diagnostic.warningSign": " ",
-  "diagnostic.infoSign": "",
-  "diagnostic.hintSign": " ",
   "diagnostic.enable": true,
   "diagnostic.highlightOffset": 9999999,
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.virtualText": true,
   "diagnostic.virtualTextCurrentLineOnly": true,
   "diagnostic.messageTarget": "echo",
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
 
   // diagnostic-languageserver
   "diagnostic-languageserver.filetypes": {

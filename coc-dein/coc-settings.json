@@ -57,10 +57,9 @@
   "diagnostic.virtualText": true,
   "diagnostic.virtualTextCurrentLineOnly": true,
   "diagnostic.messageTarget": "echo",
-  "diagnostic.errorSign": " ",
-  "diagnostic.warningSign": " ",
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
-  "diagnostic.hintSign": " ",
 
   // diagnostic-languageserver
   "diagnostic-languageserver.filetypes": {
