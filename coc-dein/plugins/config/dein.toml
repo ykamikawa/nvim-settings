@@ -67,7 +67,7 @@ rev = "release"
 repo = 'honza/vim-snippets'
 [[plugins]]
 repo = 'RRethy/vim-hexokinase'
-build = 'make'
+build = 'make hexokinase'
 [[plugins]]
 repo = 'sheerun/vim-polyglot'
 [[plugins]]
