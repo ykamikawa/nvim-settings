@@ -92,3 +92,5 @@ map                        F <Plug>Sneak_F
 map                        t <Plug>Sneak_t
 map                        T <Plug>Sneak_T
 nnoremap   <silent>        <space>y  :<C-u>CocList -A --normal yank<cr>
+
+nmap       <silent>        <Leader>x :Format<CR>

@@ -2,16 +2,6 @@
   "hover.target": "float",
   "codeLens.enable": true,
 
-  // explorer
-  "explorer.width": 80,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false,
-  "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
-    "v": "open:vsplit"
-  },
-  "explorer.file.reveal.auto": true,
-
   // suggest
   "suggest.detailField": "abbr",
   "suggest.detailMaxLength": 30,
@@ -61,22 +51,15 @@
   //"diagnostic.warningSign": "",
   //"diagnostic.infoSign": "",
 
-  // diagnostic-languageserver
-  "diagnostic-languageserver.filetypes": {
-    "vim": "vint",
-    "email": "languagetool",
-    "markdown": ["write-good", "markdownlint"],
-    "sh": "shellcheck",
-    "yaml": ["yamllint"],
-    "cmake": ["cmake-lint", "cmakelint"],
-    "systemd": "systemd-analyze"
+  // explorer
+  "explorer.width": 80,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
+    "v": "open:vsplit"
   },
-  "diagnostic-languageserver.formatFiletypes": {
-    "python": ["black", "isort"],
-    "lua": "lua-format",
-    "sh": "shfmt",
-    "cmake": "cmake-format"
-  },
+  "explorer.file.reveal.auto": true,
 
   // snippets
   "snippets.extends": {

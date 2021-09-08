@@ -47,8 +47,6 @@ repo = 'junegunn/gv.vim'
 [[plugins]]
 repo = 'stsewd/fzf-checkout.vim'
 [[plugins]]
-repo = 'haya14busa/is.vim'
-[[plugins]]
 repo = 'terryma/vim-multiple-cursors'
 [[plugins]]
 repo = 'rhysd/committia.vim'

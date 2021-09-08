@@ -34,18 +34,6 @@ repo = 'keith/swift.vim'
 on_ft = ['swift']
 
 [[plugins]]
-repo = 'digitaltoad/vim-jade'
-on_ft = ['jade']
-
-[[plugins]]
-repo = 'wavded/vim-stylus'
-on_ft = ['stylus']
-
-[[plugins]]
-repo = 'StanAngeloff/php.vim'
-on_ft = ['php']
-
-[[plugins]]
 repo = 'yuezk/vim-js'
 on_ft = ['javascript', 'javascript.jsx']
 
@@ -70,24 +58,12 @@ repo = 'moll/vim-node'
 on_ft = ['javascript']
 
 [[plugins]]
-repo = "posva/vim-vue"
-on_ft = ['javascript', 'javascript.jsx']
-
-[[plugins]]
-repo = "HerringtonDarkholme/yats.vim"
-on_ft = ['javascript', 'typescript']
-
-[[plugins]]
 repo = 'maxmellon/vim-jsx-pretty'
 on_ft = ['javascript', 'javascript.jsx']
 
 [[plugins]]
 repo = 'alampros/vim-styled-jsx'
 on_ft = ['javascript', 'javascript.jsx']
-
-[[plugins]]
-repo = 'kchmck/vim-coffee-script'
-on_ft = ['coffee']
 
 [[plugins]]
 repo = 'lervag/vimtex'
