@@ -34,42 +34,50 @@ repo = 'keith/swift.vim'
 on_ft = ['swift']
 
 [[plugins]]
-repo = 'yuezk/vim-js'
+repo = 'pangloss/vim-javascript'
 on_ft = ['javascript', 'javascript.jsx']
 
 [[plugins]]
-repo = "pangloss/vim-javascript"
-on_ft = ['javascript', 'javascript.jsx']
-
-[[plugins]]
-repo='prettier/vim-prettier'
-on_ft = ['javascript', 'javascript.jsx']
-
-[[plugins]]
-repo = "leafgarland/typescript-vim"
+repo = 'leafgarland/typescript-vim'
 on_ft = ['typescript', 'typescript.tsx']
 
 [[plugins]]
-repo = "ianks/vim-tsx"
-on_ft = ['javascript', 'typescript', 'javascript.jsx']
-
-[[plugins]]
-repo = 'moll/vim-node'
-on_ft = ['javascript']
-
-[[plugins]]
-repo = 'maxmellon/vim-jsx-pretty'
+repo = 'MaxMEllon/vim-jsx-pretty'
 on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'peitalin/vim-jsx-typescript'
+on_ft = ['typescript', 'typescript.tsx']
+
+[[plugins]]
+repo='prettier/vim-prettier'
+on_ft = ['javascript', 'javascript.jsx', 'typescript', 'typescript.tsx']
 
 [[plugins]]
 repo = 'alampros/vim-styled-jsx'
 on_ft = ['javascript', 'javascript.jsx']
 
 [[plugins]]
+repo = ' styled-components/vim-styled-components'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'mlaursen/vim-react-snippets'
+on_ft = ['javascript', 'javascript.jsx', 'typescript', 'typescript.tsx']
+
+[[plugins]]
+repo = 'moll/vim-node'
+on_ft = ['javascript']
+
+[[plugins]]
+repo = 'jparise/vim-graphql'
+on_ft = ['gql', 'graphql', 'Relay.QL', 'javascript.jsx', 'typescript.tsx']
+
+[[plugins]]
 repo = 'lervag/vimtex'
 on_ft = ['tex']
 hook_add = '''
-let g:tex_conceal = ""
+let g:tex_conceal = ''
 let g:vimtex_view_general_viewer
       \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
 let g:vimtex_view_general_options = '-r @line @pdf @tex'

@@ -28,7 +28,7 @@ nnoremap                   <Leader>w :w<CR>
 nnoremap                   <Leader>q :q<CR>
 if has('nvim')
   " Start terminal on new tab
-	nnoremap @t :tabe<CR>:terminal<CR>
+  nnoremap @t :tabe<CR>:terminal<CR>
 endif
 
 " Insert mode
@@ -94,3 +94,4 @@ map                        T <Plug>Sneak_T
 nnoremap   <silent>        <space>y  :<C-u>CocList -A --normal yank<cr>
 
 nmap       <silent>        <Leader>x :Format<CR>
+nnoremap   <silent>        K :call CocAction('doHover')<CR>

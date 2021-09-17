@@ -62,6 +62,8 @@ repo = 'dyng/ctrlsf.vim'
 repo = "neoclide/coc.nvim"
 rev = "release"
 [[plugins]]
+repo = 'SirVer/ultisnips'
+[[plugins]]
 repo = 'honza/vim-snippets'
 [[plugins]]
 repo = 'RRethy/vim-hexokinase'

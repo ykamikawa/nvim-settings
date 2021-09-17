@@ -12,6 +12,7 @@ let g:coc_global_extensions = [
       \ 'coc-go',
       \ 'coc-html',
       \ 'coc-json',
+      \ 'coc-lists',
       \ 'coc-lua',
       \ 'coc-markdownlint',
       \ 'coc-prettier',
@@ -70,9 +71,9 @@ inoremap <silent><expr> <C-c> coc#refresh()
 " Coc only does snippet and additional edit on confirm.
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-" Use `Ctrl + [` and `Ctrl + ]` to navigate diagnostics
-nmap <silent> <C-[> <Plug>(coc-diagnostic-prev)
-nmap <silent> <C-]> <Plug>(coc-diagnostic-next)
+" Use `[ + g` and `] + g` to navigate diagnostics
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
@@ -98,7 +99,7 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Remap for rename current word
-nmap <silent><F2> <Plug>(coc-rename)
+nmap <leader>rn <Plug>(coc-rename)
 
 " Remap for format selected region
 xmap <leader>x  <Plug>(coc-format-selected)
@@ -117,7 +118,8 @@ xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 
 " Remap for do codeAction of current line
-nmap <silent><F3> <Plug>(coc-codeaction)
+nmap <leader>do <Plug>(coc-codeaction)
+
 " Fix autofix problem of current line
 nmap <silent><F4> <Plug>(coc-fix-current)
 
