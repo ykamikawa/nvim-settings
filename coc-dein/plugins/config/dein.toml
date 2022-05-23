@@ -106,6 +106,8 @@ depends=['context_filetype.vim']
 [[plugins]]
 repo = 'rhysd/accelerated-jk'
 [[plugins]]
+repo = 'tyru/open-browser.vim'
+[[plugins]]
 repo='kannokanno/previm'
 [[plugins]]
 repo = "ayu-theme/ayu-vim"
